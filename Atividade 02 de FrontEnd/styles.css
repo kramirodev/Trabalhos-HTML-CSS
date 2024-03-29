@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f3f8; /* Roxo claro quase branco */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #8a63a1; /* Roxo */
+    padding: 2% 0;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2%;
+}
+
+section {
+    margin-bottom: 4%;
+}
+
+h1 {
+    color: #8a63a1; /* Roxo */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+p {
+    text-align: justify;
+}
+
+form label {
+    display: block;
+    margin-bottom: 2%;
+    color: #8a63a1; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 4%;
+    border: 1px solid #8a63a1; 
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background-color: #8a63a1; 
+    color: #fff;
+    padding: 2% 4%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #634378; 
+}
+
+footer {
+    background-color: #8a63a1; 
+    color: #fff;
+    text-align: center;
+    padding: 2% 0;
+}
+
+footer p {
+    margin: 0;
+}
